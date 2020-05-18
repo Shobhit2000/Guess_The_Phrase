@@ -30,9 +30,3 @@ $ python3 main.py
 ## Acknowledgments
 
 * Kudos to all whose code was used
-
-
-
-×
-Drag and Drop
-The image will be downloaded
