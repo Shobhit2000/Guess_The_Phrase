@@ -4,7 +4,7 @@ import random
 ELITISM_FACTOR = 10
 MATING_PERCENT = 50
 POPULATION_SIZE = 100
-TARGET = "I Love Machine Learning"
+TARGET = ""
 GENES = '''abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890 ,."_;:!@$[]'''
 
 class Individual(object):
@@ -63,6 +63,9 @@ def main():
     global MATING_PERCENT
     global ELITISM_FACTOR
     global POPULATION_SIZE
+    global TARGET
+
+    TARGET = input("Enter the Phrase you want your system to predict: ")
     population = []
     solved = False
     generation = 1
